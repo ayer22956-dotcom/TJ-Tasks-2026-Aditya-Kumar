@@ -33,4 +33,6 @@ Space Complexity: O(n)
 
 ## Output
 
-![Output](output.png)
+<img width="1289" height="164" alt="output" src="https://github.com/user-attachments/assets/c28923cd-8d49-43cc-aaa4-834f6b946190" />
+
+
