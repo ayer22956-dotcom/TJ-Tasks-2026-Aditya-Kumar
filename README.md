@@ -35,4 +35,48 @@ Space Complexity: O(n)
 
 <img width="1289" height="164" alt="output" src="https://github.com/user-attachments/assets/c28923cd-8d49-43cc-aaa4-834f6b946190" />
 
+# Question 2 :- Second Largest Distinct Element
+
+## Approach
+
+I used two variables, `largest` and `second`, to keep track of the
+largest and second largest distinct elements.
+
+I traverse the array and compare each element with `largest`.
+
+- If the current element is greater than `largest`, the current
+  `largest` becomes `second` and the current element becomes `largest`.
+- If the current element is smaller than `largest`, I check whether it
+  can be the second largest element.
+- Duplicate values are ignored because the second largest element
+  needs to be distinct.
+- The `found` variable is used to check whether a valid second largest
+  element exists.
+
+If no distinct second largest element is found, the program prints `-1`.
+
+## Algorithm
+
+1. Take the size of the array.
+2. Initialize `largest` with the first element.
+3. Traverse the remaining elements.
+4. Update `largest` and `second` whenever required.
+5. Ignore duplicate values.
+6. Print the second largest distinct element.
+7. If no such element exists, print `-1`.
+
+## Complexity
+
+- Time Complexity: `O(n)`
+- Space Complexity: `O(1)`
+
+## Language
+
+C++
+
+## Output
+
+<img width="1238" height="400" alt="Q2 Output" src="https://github.com/user-attachments/assets/3b8d0e75-a9ed-4253-8afa-709281a7fef1" />
+
+
 
