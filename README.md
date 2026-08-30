@@ -1,24 +1,36 @@
-# DSA Question 1 (Easy) : Balanced Brackets 
+# DSA Question 1 (Easy): Balanced Brackets
 
-### Approach
+## Approach
 
-I used a stack for this question.
+I used a stack to solve this question.
 
-Whenever I get an opening bracket `(`, `[`, `{`, I push it into the stack.
+First, I check each bracket one by one. If it is an opening bracket
+`(`, `[` or `{`, I push it into the stack.
 
-For a closing bracket, I check the top of the stack:
-- If it matches, I remove it from the stack.
-- If it doesn't match, the brackets are not balanced.
+If it is a closing bracket, I check the top of the stack. If the
+opening and closing brackets match, I pop the top element.
 
-At the end, if the stack is empty, the answer is `YES`.
-Otherwise, the answer is `NO`.
+If they don't match, the answer is `NO`.
 
-### Complexity
+After checking all the brackets, if the stack is empty, the brackets
+are balanced and the answer is `YES`.
 
-Time: O(n)
+## Algorithm
 
-Space: O(n)
+1. Create an empty stack.
+2. Traverse the string.
+3. Push every opening bracket into the stack.
+4. For a closing bracket, check the top element.
+5. If it matches, pop it.
+6. If it doesn't match, print `NO`.
+7. At the end, if the stack is empty, print `YES`.
 
-### Language
+## Complexity
 
-C++
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+## Output
+
+![Output](output.png)
