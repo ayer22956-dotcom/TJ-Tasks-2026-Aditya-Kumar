@@ -76,7 +76,8 @@ C++
 
 ## Output
 
-<img width="1238" height="400" alt="Q2 Output" src="https://github.com/user-attachments/assets/3b8d0e75-a9ed-4253-8afa-709281a7fef1" />
+<img width="1264" height="422" alt="Q 2 OUTPUT" src="https://github.com/user-attachments/assets/ce3123f0-6de0-4c85-b2dc-8a029b5f11e4" />
+
 
 
 
